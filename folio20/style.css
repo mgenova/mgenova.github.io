@@ -1,0 +1,28 @@
+
+body { 
+
+    background-color:aqua;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 30px;
+    width: 100%;
+    
+}
+header {
+    text-align: center
+}
+.image-box {
+    width:70%;
+    margin: 0 auto;
+    
+}
+.img {
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+
+.captionbackground {
+    background-color: darkgoldenrod;
+    text-align: center;
+}

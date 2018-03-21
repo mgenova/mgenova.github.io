@@ -1,0 +1,28 @@
+body {
+    background-color:lightgray
+}
+.serif-example{
+    font-family: Times, "Times New Roman", Georgia, serif:
+}
+p{
+    font-size:125%
+}
+
+p{
+    padding: 5px;
+}
+
+h1 {
+    border: grey;
+    border-width: thick;
+}
+
+h1 {border-style: dashed}
+
+h1{
+    margin: auto
+}
+
+body{
+    font-size: 100%
+}

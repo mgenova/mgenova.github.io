@@ -1,0 +1,102 @@
+/* reset all paddings/margins to zero */
+* { 
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    background-image: url("/images/bg.jpg");
+    background-repeat: no-repeat center center fixed; 
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+.navigation-container {
+    background-color: #352d2f;
+    height: 105px;
+    width: 100%;
+    text-align:center;
+}
+
+#logo {
+    padding: 15px;
+    float: left;
+}
+
+
+#nav {
+  padding-top: 40px;
+}
+
+p {
+    font-size: 22px;
+    font-weight: 100;
+
+}
+
+
+ul li {
+    display: inline-block;
+    padding-right: 20px;
+
+}
+#nav li a {
+    font-size: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;    
+}
+
+
+/* unvisited link */
+a:link {
+    color:#352d2f;
+}
+
+/* visited link */
+a:visited {
+    color: #352d2f; /* brown */
+}
+
+/* mouse over link */
+a:hover {
+    color: #35c0cd; /* blue */
+    text-decoration: none;    
+
+}
+
+/* mouse over link */
+#nav a:hover {
+    color: #35c0cd; /* blue */
+}
+
+/* selected link */
+#nav a:active {
+    color: #ffd000; /* yellow */
+}  
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #352d2f;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    
+    height: 50px;
+    width: 100%;
+    padding-top: 13px;
+    margin-top: 200px;
+
+}
+
+
+.pagination {
+    position: fixed;
+    bottom: 50px;
+}
+

@@ -1,0 +1,78 @@
+body {
+    background-image:url(stars.jpg);
+    font-size: 32px;
+    font-family: cursive;
+    
+
+}
+
+h1 { 
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+   color: white;
+    padding: 10px;
+        
+
+}
+
+p {
+    padding: 20px;
+    text-indent: 25px;
+    color: white; 
+    font-family: cursive;
+   
+    
+    
+}
+
+div.polaroid {
+    width: 50%;
+    margin: auto;
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    border-radius: 8px; 
+    
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+img{
+    w
+    height: 307.2px;
+    border-radius: 8px;
+    margin: auto; 
+    
+    
+    
+}
+
+body2{ 
+
+ 
+position: absolute;
+    left: 221px;
+font-size: 35px;
+
+
+
+}
+
+body3 { 
+    font-size: 55px;
+font-family: cursive;
+text-indent: 94px; 
+ position: absolute;
+    
+    left: 430px;
+    
+   
+
+    
+    
+}
+

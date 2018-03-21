@@ -1,0 +1,169 @@
+body {
+    
+    /* Add a background image or color of your choice */
+    
+    background: url(media/music-bg.jpg) no-repeat 50% 50% fixed;
+    background-size: cover;
+    
+}
+
+
+/* This is the style for our boxs' container. With it, we can position and center the boxes in the browser. */
+
+#instruments {
+    height: 116px;
+    width: 850px;
+    padding-right: 10px;
+    padding-top: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+/* This is the style that give our music boxes shape */
+
+.box {
+    
+    /*  
+        1) Create the boxes by adding width and height of 100px 
+        2) Make it float to the left
+        3) Add a margin so there are spaces between the boxes
+    
+    */
+    
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    float:left;
+}
+
+
+
+/*These are the styles that individually color our boxes and also determine the hover and active states*/
+
+
+/*** BOX A***/
+
+#a {
+    background-color: #633974;
+    border: 5px solid #AF7AC5;
+} 
+
+#a:hover {
+    background-color:#C39BD3;
+    cursor: pointer;
+}
+
+#a:active {
+    background-color:#AF7AC5;   
+}
+
+
+/*** BOX B ***/
+
+#b {
+    background-color: #2471A3;
+    border: 5px solid #5DADE2;
+}
+
+#b:hover {
+    background-color:#85C1E9;
+    cursor: pointer;
+}
+
+#b:active {
+    background-color:#5DADE2;   
+}
+
+
+/*** BOX C ***/
+
+
+#c {
+    background-color: #117864;
+    border: 5px solid #ABEBC6;
+}
+
+#c:hover {
+    background-color:#28B463;
+    cursor: pointer;
+}
+
+#c:active {
+    background-color:#ABEBC6;   
+}
+
+
+/*** BOX D ***/
+
+#d {
+    background-color: #A04000;
+    border: 5px solid #E59866;
+}
+
+
+#d:hover {
+    background-color:#DC7633;
+    cursor: pointer;
+}
+
+#d:active {
+    background-color:#E59866;   
+}
+
+
+/*** BOX E ***/
+
+#e {
+    background-color: #7D6608;
+    border: 5px solid #F9E79F;
+}
+
+#e:hover {
+    background-color:#735b20;
+    cursor: pointer;
+}
+
+#e:active {
+    background-color:#F9E79F;   
+}
+
+
+/*** BOX F ***/
+
+#f {
+    background-color: #78281F;
+    border: 5px solid #D98880;
+}
+
+#f:hover {
+    background-color:#CB4335;
+    cursor: pointer;
+}
+
+#f:active {
+    background-color:#D98880;   
+}
+
+
+/*** BOX G ***/
+
+#g {
+    background-color: #0B5345;
+    border: 5px solid #82E0AA;
+}
+
+#g:hover {
+    background-color:#A2D9CE;
+    cursor: pointer;
+}
+
+#g:active {
+    background-color:#82E0AA;   
+}
+
+
+
+
+

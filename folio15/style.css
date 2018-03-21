@@ -1,0 +1,79 @@
+div {
+    font-family: sans-serif;
+    color: white;
+}
+
+.CLASSification {
+    border: 5px solid;
+    border-color: transparent;
+    background-color: grey;
+    font-size: 25px;
+    font-family: serif;
+}
+#border {
+    border: 5px solid;
+    border-color: black;
+    position: absolute;
+    left: 1000px
+}
+
+img {
+    width: 300px;
+        position: fixed;
+    left: 950px
+}
+
+span {
+    font-family: sans-serif;
+    color: white
+}
+
+#picture {
+    color: white;
+    position: fixed;
+    left: 965px;
+    top: 220px;
+}
+
+body {
+    background-image: url(Screen%20Shot%202017-03-14%20at%208.55.56%20AM.png)
+}
+
+#kingdom {
+    color: red
+}
+
+#phylum {
+    color: yellow
+}
+
+#class {
+    color: green
+}
+
+#order {
+    color: blue
+}
+
+#img2 {
+    width: 300px;
+    position: fixed;
+    left: 950;
+    top: 300px;
+}
+
+#picture2 {
+    position: fixed;
+    left: 950px;
+    top: 450px;
+}
+#spearer {
+    position: fixed;
+    left: 5px
+}
+
+#mantis_spear {
+    width: 400px;
+    position: fixed;
+    left: 305px;
+}

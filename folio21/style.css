@@ -1,0 +1,132 @@
+
+/* ADD CSS STYLING HERE */
+
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+
+    font-size: 16px;
+    background-color: black;
+   
+}
+
+  
+h1 {
+    font-size: 35px;
+        color: white
+       
+}
+
+.img {       
+         
+     margin: 16px;
+     border-width: thick;
+     padding: 40px;
+     width:250px;
+          
+    
+}
+
+h2 {
+   
+    font-size: 20px;
+    color: white
+}
+
+h3 {
+    font-size: 20px;
+        color: white
+    
+}
+
+h4 {
+    font-size: 20px;
+        color: white
+}
+
+h5 {
+    font-size: 20px;
+        color: white
+}
+
+h6 {
+    font-size: 20px;
+        color: white
+}
+
+
+
+#page-heading {
+    background-color: red;
+    color: white
+}
+
+#introduction {
+    background-color: red;
+    color: white
+}
+
+#first-heading {
+    background-color: red;
+     color: white
+}
+
+#first-paragraph {
+    background-color: red;
+     color: white
+}
+
+#second-heading {
+    background-color: red;
+     color: white
+}
+
+#second-paragraph {
+    background-color: red;
+     color: white
+}
+
+#third-heading {
+    background-color: red;
+     color: white
+}
+
+#third-paragraph {
+    background-color: red;
+     color: white
+}
+
+#fourth-heading {
+    background-color: red;
+     color: white
+}
+
+#fourth-paragraph {
+    background-color: red;
+     color: white
+}
+
+#fifth-heading {
+    background-color: red;
+          color: white
+}
+
+#fifth-paragraph {
+    background-color: red;
+      color: white
+}
+
+#sixth-heading {
+    background-color: red;
+      color: white
+}
+
+#sixth-paragraph {
+    background-color: red;
+      color: white
+}
+
+.author {
+    font-style: italic;
+}
+

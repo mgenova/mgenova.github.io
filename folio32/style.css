@@ -1,0 +1,50 @@
+body {
+    background-image: url(https://i.pinimg.com/736x/93/3f/51/933f5155814f65f888c4cc587f56a914--peacock-tail-peacock-feathers.jpg); 
+    background-size: cover; 
+    font-family: cursive;
+    
+    }
+a:hover{
+    color: greenyellow;
+}
+a:active{
+    color: red; 
+}
+
+h1{
+    font-family: cursive;
+    color: blue;   
+  
+}
+
+li{
+    display: inline; 
+    padding-right: 15px;
+    font-family: sans-serif; 
+}       
+ul a{
+    text-decoration: none;
+    color: aqua; 
+}
+
+ul a:hover{
+    text-decoration: underline;
+    font-size: 25px;
+    color: greenyellow; 
+}
+
+ul a:active{
+    color: blue; 
+    cursor: pointer;  
+}
+    
+    
+
+   
+     
+     
+
+
+    
+    /* ADD CSS STYLING HERE */
+

@@ -1,0 +1,58 @@
+
+
+
+body {
+    background-color: none;
+ margin-bottom: 60px;
+}
+
+
+h1  {
+    
+    font-size: 75px;
+    font-family: fantasy;
+        font-style:oblique;
+}
+
+p  {
+    Font-size: 15px;
+    font-family:serif;
+    font-style: italic
+}
+
+l-l5 {
+    
+    font-family: serif;
+        font-size: 15px;
+}
+    
+
+#About-Surfboards {
+
+background-color:none;
+    letter-spacing: 1/2px;
+
+
+}
+
+
+
+html {
+    
+    
+    background-image: url("https://i.pinimg.com/736x/92/ce/ec/92ceecbfa193c6f75a00a635033045c9--single-fin-surfboards--.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#How_To_Make_One 
+{
+    font-family: inherit;
+    font-style: italic;
+    border: outset;
+    border-width:thick;
+    border-color: cyan aqua aqua cyan;
+    
+    
+}

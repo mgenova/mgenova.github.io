@@ -1,0 +1,104 @@
+/* ADD CSS STYLING HERE */
+
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    background-color: darkorange;
+   
+}
+
+  
+h1 {
+    font-size: 35px;
+}
+
+.img {       
+         
+     margin: 16px;
+     border-width: thick;
+     padding: 40px;
+     width:250px;
+          
+    
+}
+
+h2 {
+   
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+
+
+#page-heading {
+    background-color: cyan;
+}
+
+#introduction {
+    background-color: cyan;
+}
+
+#first-heading {
+    background-color: skyblue;
+}
+
+#first-paragraph {
+    background-color: skyblue;
+}
+
+#second-heading {
+    background-color: lightskyblue;
+}
+
+#second-paragraph {
+    background-color: lightskyblue;
+}
+
+#third-heading {
+    background-color: deepskyblue;
+}
+
+#third-paragraph {
+    background-color: deepskyblue;
+}
+
+#fourth-heading {
+    background-color: darkturquoise;
+}
+
+#fourth-paragraph {
+    background-color: darkturquoise;
+}
+
+#fifth-heading {
+    background-color: paleturquoise;
+}
+
+#fifth-paragraph {
+    background-color: paleturquoise;
+}
+
+#sixth-heading {
+    background-color: mediumaquamarine;
+}
+
+#sixth-paragraph {
+    background-color: mediumaquamarine;
+}

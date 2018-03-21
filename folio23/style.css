@@ -1,0 +1,41 @@
+/* ADD CSS STYLING HERE */
+body {
+    background-image:url(images.jpg);
+}
+
+.white-box {
+    background-color: white;
+   font-size: 20px;
+    font-family:monospace;
+}
+
+.box2 {
+     background-color: white;
+    font-size: 20px;
+   font-family: monospace;
+}
+#video { 
+     position: fixed;
+    top: 30px;
+    
+}
+.white-box2 {
+    background-color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+.white-box3 {
+    background-color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+.white-box4 {
+    background-color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+h1 {
+font-size: 50px;
+    font-family: fantasy;
+
+}

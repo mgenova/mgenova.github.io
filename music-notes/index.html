@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Music Boxes</title>
+   
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+    <script src="js/jquery-3.1.1.min.js"></script>
+   
+</head>
+    
+<body>    
+    <audio id="aAudio">
+        <source src="media/a_note.mp3" type="audio/mpeg"></source>
+        <source src="media/a_note.ogg" type="audio/ogg"></source>
+        <source src="media/a_note.wav" type="audio/wav"></source>   
+    </audio>
+
+    <audio id="bAudio">
+        <source src="media/b_note.mp3" type="audio/mpeg"></source>
+        <source src="media/b_note.ogg" type="audio/ogg"></source>
+        <source src="media/b_note.wav" type="audio/wav"></source>   
+    </audio>
+
+    <audio id="cAudio">
+        <source src="media/c_note.mp3" type="audio/mpeg"></source>
+        <source src="media/c_note.ogg" type="audio/ogg"></source>
+        <source src="media/c_note.wav" type="audio/wav"></source>   
+    </audio>
+
+    <audio id="dAudio">
+        <source src="media/d_note.mp3" type="audio/mpeg"></source>
+        <source src="media/d_note.ogg" type="audio/ogg"></source>
+        <source src="media/d_note.wav" type="audio/wav"></source>   
+    </audio> 
+
+    <audio id="eAudio">
+        <source src="media/e_note.mp3" type="audio/mpeg"></source>
+        <source src="media/e_note.ogg" type="audio/ogg"></source>
+        <source src="media/e_note.wav" type="audio/wav"></source>   
+    </audio>
+
+    <audio id="fAudio">
+        <source src="media/f_note.mp3" type="audio/mpeg"></source>
+        <source src="media/f_note.ogg" type="audio/ogg"></source>
+        <source src="media/f_note.wav" type="audio/wav"></source>   
+    </audio>
+
+    <audio id="gAudio">
+        <source src="media/g_note.mp3" type="audio/mpeg"></source>
+        <source src="media/g_note.ogg" type="audio/ogg"></source>
+        <source src="media/g_note.wav" type="audio/wav"></source>   
+    </audio>
+
+    
+   <!-- These are the square boxes all inside the "instruments" div -->
+    <div id= "instruments">  
+        
+        <div id= "a" class="box"></div>
+        <div id= "b" class="box"></div>
+        <div id= "c" class="box"></div>        
+        <div id= "d" class="box"></div>
+        <div id= "e" class="box"></div>
+        <div id= "f" class="box"></div>
+        <div id= "g" class="box"></div>
+        
+    </div>
+
+    <!-- This looks for the index.js file, which allows the sound to play everytime you click on each boxes using the mouse -->
+    <script src="js/index.js"></script>
+
+</body>
+</html>

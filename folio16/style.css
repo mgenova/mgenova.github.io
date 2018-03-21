@@ -1,0 +1,65 @@
+body { font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url(image.jpg); 
+    background-size: auto; 
+    width: auto
+}
+#otter {
+    padding: none;
+    border: none;
+    margin: none;
+}
+div{
+    margin: 0;
+    height: 60px;
+    width:auto;
+    background-color: black;
+}
+ul {
+    margin: 0;
+   text-decoration: none;
+    color: aqua;
+    
+        
+}
+li { display: inline;
+padding: 10px;
+}
+
+a {
+    text-decoration: none;
+        color: aqua;
+}
+a:hover{
+    text-decoration: underline;
+    color:aquamarine;
+}
+a:active{
+     text-decoration: none;
+        color: aqua;
+}
+p {
+    height: 60px;
+    margin: 0;
+}
+h1 {
+background-color: ghostwhite;
+margin-bottom: 0;
+    
+}
+ #yoboi {
+    height: 200px;
+    width: 200px;
+}
+#egg:hover{
+   text-decoration: none 
+}
+#box {
+    margin: 20px;
+    height: 240px;
+        width: 297px;
+            Background-color: white;
+    float: left;
+}

@@ -1,0 +1,12 @@
+/* ADD CSS STYLING HERE */
+body 
+{color: red;}
+body
+{background-color: black;}
+
+p {}
+p.log {
+    border: 2px solid red;
+    padding: 7px;
+    
+}
