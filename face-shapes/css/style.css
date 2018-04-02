@@ -1,0 +1,163 @@
+/****** External CSS styling goes here ******/
+
+body {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #F5DEB3;
+    
+    
+}
+.main {
+   
+    position:absolute;
+    top: 200px;
+    left: 300px;
+
+}
+
+#face {
+    width: 300px;
+    height: 300px;
+    background: #FFA500; 
+    border-radius: 200px;
+    position:absolute;
+    z-index: -1;
+}
+
+#left-eye {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+   
+    border-radius: 100px;
+    position:absolute;
+    top: 80px;
+    left: 40px;
+    z-index: 1;
+}
+
+#right-eye {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+   
+    border-radius: 100px;
+    position:absolute;
+    top: 80px;
+    left: 160px;
+    z-index: 1;
+}
+
+#left-pupil {
+    width:70px;
+    height: 70px;
+    background:#000;
+    border-radius: 100px;
+    position:absolute;
+    top: 94px;
+    left: 54px;
+    z-index: 1;
+}
+#left-glare {
+    width:20px;
+    height: 20px;
+    background:#fff;
+    border-radius: 100px;
+    position:absolute;
+    top: 98px;
+    left: 59px;
+    z-index: 1;
+}
+
+
+
+#right-pupil {
+    width:70px;
+    height: 70px;
+    background:#000;
+    border-radius: 100px;
+    position:absolute;
+    top: 93px;
+    left: 175px;
+    z-index: 1;
+}
+
+#right-glare {
+    width:20px;
+    height: 20px;
+    background:#fff;
+    border-radius: 100px;
+    position:absolute;
+    top: 100px;
+    left: 180px;
+    z-index: 1; 
+}
+
+#left-ear {
+    width: 130px;
+    height: 130px;
+    background: #FFA500;  
+    border-radius: 100px;
+    position:absolute;
+    top: -50px;
+    left: -50px;
+    z-index: 1;
+}
+#left-inner-ear {
+    width: 100px;
+    height: 100px;
+    background: #8B4513;  
+    border-radius: 100px;
+    position:absolute;
+    top: -40px;
+    left: -35px;
+    z-index: 1;
+}
+
+#right-ear {
+    width: 130px;
+    height: 130px;
+    background: #FFA500;
+    border-radius: 100px;
+    position:absolute;
+    top: -50px;
+    left: 230px;
+    z-index: 1;
+}
+
+#right-inner-ear {
+    width: 100px;
+    height: 100px;
+    background: #8B4513;
+    border-radius: 100px;
+    position:absolute;
+    top: -38px;
+    left: 245px;
+    z-index: 1;
+}
+
+#nose {
+    width: 80px;
+    height: 40px;
+    background: #000;
+     border-radius: 100px / 50px;
+    position:absolute;
+    top: 170px;
+    left: 110px;
+    z-index:1;
+}
+
+ #tongue {
+    width: 70px;
+    height: 80px;
+    background-color:red;
+
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: -150px;
+    top: 250px;
+    z-index:1;
+        
+}
