@@ -1,0 +1,40 @@
+/****** External CSS styling goes here ******/
+
+.websitematerial {
+  padding-left:35px;
+  padding-right:35px;  
+}
+
+h1 {
+  font-family:serif;
+  font-size:50px;
+  font-weight:bolder;
+  font-style:italic;
+  line-height:150%;
+  color:darkred;
+}
+
+h2 {
+  font-family:serif;
+  font-size:30px;
+  font-weight:bolder;
+  font-style:italic;
+  line-height:160%;
+  color:darkred
+}
+
+p {
+ font-family:serif;
+  font-size:20px;
+  font-weight:bold;
+  line-height:180%;
+  color:indianred;   
+}
+
+li {
+  font-family:serif;
+  font-size:20px;
+  font-weight:bold;
+  line-height:180%;
+  color:indianred;
+}

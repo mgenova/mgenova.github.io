@@ -1,0 +1,35 @@
+/****** External CSS styling goes here ******/
+body
+h1 {font-family: monospace;
+font-size: 45px;
+color:darkblue;
+font-style: oblique;}
+
+h2 {font-family: monospace;
+font-size: 30px;
+color:darkblue;
+font-style: normal}
+
+.description {font-size: 20px;
+font-family:cursive;
+color:darkblue;
+font-style: italic;}
+
+h3 {font-family: monospace;
+font-size: 30px;
+color: darkblue;
+font-style: normal;}
+
+ul {font-size: 20px;
+    font-family: monospace;
+color:darkblue;
+font-style:italic;}
+h4 {font-family: monospace;
+font-size: 30px;
+color: darkblue;
+font-style: normal;}
+
+ol {font-size: 18px;
+    font-family: monospace;
+color:darkblue;
+font-style:italic;}
