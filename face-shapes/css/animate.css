@@ -34,8 +34,10 @@ body {
     left: 40px;
     z-index: 1;
     
-
-    
+    animation-name: an-eyes;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 
 #right-eye {
@@ -47,8 +49,11 @@ body {
     top: 80px;
     left: 160px;
     z-index: 1;
-
     
+    animation-name: an-eyes;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 
 #left-pupil {
@@ -60,7 +65,11 @@ body {
     top: 94px;
     left: 54px;
     z-index: 1;
- 
+    
+    animation-name: an-eyes;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 #left-glare {
     width:20px;
@@ -71,8 +80,11 @@ body {
     top: 98px;
     left: 59px;
     z-index: 1;
-
     
+    animation-name: an-eyes;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 
 
@@ -86,7 +98,11 @@ body {
     top: 93px;
     left: 175px;
     z-index: 1;
-  
+    
+    animation-name: an-eyes;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 
 #right-glare {
@@ -99,6 +115,10 @@ body {
     left: 180px;
     z-index: 1; 
     
+    animation-name: an-eyes;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 
 #left-ear {
@@ -171,3 +191,15 @@ body {
     
         
 }
+
+
+
+@keyframes an-eyes {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.3);
+    }
+}
+
