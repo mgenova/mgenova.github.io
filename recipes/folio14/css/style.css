@@ -1,0 +1,31 @@
+/****** External CSS styling goes here ******/
+h1{
+    font-family: monospace;
+    color: aqua;
+    margin: 20px; 
+    font-size: 40px;
+}
+h2{
+    font-family: monospace;
+    color: aqua;
+    font-size: 30px;
+}
+li{
+    font-family: sans-serif;
+    color: darkcyan; 
+}
+p{
+    font-family: sans-serif;
+    color: greenyellow; 
+}
+
+#mainpic{
+    border: solid; 
+    color: greenyellow; 
+    margin: 10px;
+}
+#fooddescription{
+    font-family: sans-serif;
+    color: darkcyan;
+    font-size: 19px; 
+}

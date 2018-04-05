@@ -1,0 +1,41 @@
+/****** External CSS styling goes here ******/
+
+body{ 
+    margin: 30px 50px 40px 50px; 
+
+}
+
+h1 { 
+    color: #d47463; 
+    font-family: 'Arvo', cambria, serif;
+    font-size: 40px;     
+
+}
+
+p{ 
+    color:#d47463; 
+    font-family: 'Gaegu', calibri, sans-serif;
+    font-size: 24px;     
+
+}
+
+h2 { 
+    color:#d47463; 
+    font-family: 'Arvo', cambria, serif;
+    font-size: 25px;     
+
+}
+
+ul { 
+    color: #d47463; 
+      font-family: 'Gaegu', calibri, sans-serif;
+    font-size: 22px;     
+
+}
+
+ol { 
+    color: #d47463; 
+       font-family: 'Gaegu', calibri, sans-serif;
+    font-size: 22px;     
+
+}

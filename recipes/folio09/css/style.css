@@ -1,0 +1,36 @@
+/****** External CSS styling goes here ******/
+body {
+   background-color:lightpink
+}
+
+
+{
+	font-family: cursive;
+}
+
+h1 {
+    font-family: cursive;
+    color:black
+}  
+
+.img {       
+         
+     margin: 20px;
+     border-width: thick;
+     padding: 50px;
+     width:200px;
+          
+}
+
+
+h2 {
+    font-family: cursive;
+    color: black
+}
+
+h3 {
+    font-family: cursive;
+    color: black
+}
+
+

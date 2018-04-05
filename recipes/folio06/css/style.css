@@ -1,0 +1,33 @@
+/****** External CSS styling goes here ******/
+#Title{
+ font-family:serif;
+    font-style: oblique;
+
+    font-size: 75px;
+}
+
+.Body-Style{
+  font-size: 16px;  
+    font-family: cursive
+    
+    
+}
+
+
+
+#Yum{
+    
+    font-size: 35px;
+    
+    
+    
+    
+}
+
+
+#Ingredients{
+     font-size: 35px;
+    
+    
+    
+}
