@@ -11,6 +11,7 @@ body {
 
 #cloud1 {
     position: fixed;
+    left:20%;
     top:90px;
     
     animation: moveclouds 40s linear infinite;
@@ -19,20 +20,20 @@ body {
 #cloud2 {
     position: fixed;
     top: 50px;
-    animation: moveclouds 55s linear infinite;
+    animation: moveclouds 50s linear infinite;
 }
 
 #cloud3 {
     position: fixed;
     top: 30px;
-    animation: moveclouds 40s linear infinite;
+    animation: moveclouds 60s linear infinite;
     
 }
 
 #cloud4 {
     position: fixed;
     top: 120px;
-    animation: moveclouds 50s linear infinite;
+    animation: moveclouds 70s linear infinite;
 }
 
 #cloud5 {
@@ -60,7 +61,7 @@ body {
 }
 
 #sun {
-    width: 100px;
+    width: 200px;
     position:fixed;
     
     left:80%;
@@ -94,6 +95,12 @@ body {
     position:fixed;
     bottom:0px;
     left:748px;
+}
+#waves3 {
+    width:750px;
+    position:fixed;
+    bottom:0px;
+    left:1495px;
 }
 
 @keyframes boatmove {
