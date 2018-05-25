@@ -1,0 +1,103 @@
+#circle {
+    width: 200px;
+    height: 200px;
+    background: saddlebrown;
+    border-radius: 120px;
+    
+}
+
+#circle2 {
+    width: 90px;
+    height: 90px;
+    
+    background: pink;
+    border-radius: 60px;
+    position: relative;
+    bottom:110px;
+    left:55px
+}
+
+#circle3 {
+    width: 60px;
+    height: 60px;
+    
+    background: white;
+    border-radius: 60px;
+    position: relative;
+    bottom:260px; 
+    left:20px
+}
+
+#circle4 {
+    width: 60px;
+    height: 60px;
+    
+    background: white;
+    border-radius: 60px;
+    position: relative;
+    bottom: 320px;
+    left:120px
+}
+
+#circle5 {
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 60px;
+    position: relative;
+    bottom: 355px;
+    left:140px    
+}
+
+#circle6 {
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 60px;
+    position: relative;
+    bottom: 375px;
+    left:40px    
+}
+#oval {
+    width: 25px;
+    height: 50px;
+    background: #e9337c;
+    border-radius: 100px / 50px;
+     position: relative;
+    bottom: 340px;
+    left:65px 
+}
+#oval2 {
+    width: 25px;
+    height: 50px;
+    background: #e9337c;
+    border-radius: 100px / 50px;
+     position: relative;
+    bottom: 390px;
+    left:110px 
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid saddlebrown;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+     position: relative;
+    bottom: 580px;
+    left:110px 
+}
+#triangle2 {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid saddlebrown;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+     position: relative;
+    bottom: 630px;
+    left:40px
+}
+
+
+
+

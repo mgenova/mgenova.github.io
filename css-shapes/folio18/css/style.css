@@ -1,0 +1,80 @@
+#square {
+    position:absolute;
+    width: 220px;
+    height: 120px;
+    background: black;
+    border-radius: 10px;
+}
+
+#square2 {
+    position:absolute;
+    left:8px;
+    top: 50px;
+    width: 220px;
+    height: 74px;
+    background: green;
+    border-radius: 10px;
+}
+
+
+#circle {
+    position:absolute;
+    left: 10px;
+    top: 50px;
+    width: 215px;
+    height: 198px;
+    background: green;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 190px;
+}
+
+#circle2 {
+    position:absolute;
+    left: 70px;
+    top: 130px;
+    width: 40px;
+    height: 40px;
+    background: white;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 190px;
+}
+
+#circle3 {
+    position:absolute;
+    left: 130px;
+    top: 130px;
+    width: 40px;
+    height: 40px;
+    background: white;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 190px;
+}
+
+#circle4 {
+    position:absolute;
+    left: 75px;
+    top: 190px;
+    width: 90px;
+    height: 20px;
+    background: black;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 190px;
+}
+
+#circle5 {
+    position:absolute;
+    left: 130px;
+    top: 60px;
+    width: 90px;
+    height: 10px;
+    background: black;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 190px;
+}
+
+

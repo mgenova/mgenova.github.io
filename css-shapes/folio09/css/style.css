@@ -1,0 +1,232 @@
+/****** External CSS styling goes here ******/
+
+body {
+    width: 500px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+.main {
+    position:absolute;
+    top: 110px;
+    left: 330px;
+
+}
+
+#face {
+    width: 500px;
+    height: 500px;
+    background-color: dimgray; 
+    border-radius: 225px;
+    position:absolute;
+    z-index: -2;
+}
+
+.secondmain {
+    position:absolute;
+    top: 180px;
+    left: 365px;
+}
+
+#face-two {
+    width: 425px;
+    height: 425px;
+    background-color: white;
+    border-radius: 200px;
+    position: absolute;
+    z-index: -1;
+}
+
+#heart-left {
+    position: absolute;
+    top: 240px;
+    left: 420px;
+    z-index: 0;
+}
+
+#heart-left:before,#heart-left:after {
+    content: "";
+    width: 70px;
+    height: 115px;
+    position: absolute;
+    background: red;
+    left: 70px;
+    top: 0;
+    -webkit-border-radius: 50px 50px 0 0;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    
+}
+
+#heart-left:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    
+    
+}
+
+#heart-right {
+    position: absolute;
+    top: 240px;
+    left: 605px;
+    z-index: 0;
+}
+
+#heart-right:before,#heart-right:after {
+    content: "";
+    width: 70px;
+    height: 115px;
+    position: absolute;
+    background: red;
+    left: 70px;
+    top: 0;
+    -webkit-border-radius: 50px 50px 0 0;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    
+}
+
+#heart-right:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    
+}
+
+.mouth {
+   position: absolute;
+    top: 420px;
+    left: 510px;
+    z-index: 0;
+}
+
+
+#triangle_down {
+    width: 0;
+    height: 0;
+    border-top: 140px solid #FFA500;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    z-index: 0;
+}
+
+.blush {
+    
+}
+
+#blush-left {
+    position:absolute;
+    top: 370px;
+    left: 395px;
+    width: 100px;
+    height: 40px;
+    background-color: lightpink;
+    -webkit-border-radius: 40px / 20px;
+    -moz-border-radius: 40px / 20px;
+    border-radius: 40px / 20px;
+    z-index: 1;
+    
+    animation-name: an-blush;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+} 
+
+#blush-right {
+    position: absolute;
+    top: 370px;
+    left: 650px;
+    width: 100px;
+    height: 40px;
+    background-color: lightpink;
+    -webkit-border-radius: 40px / 20px;
+    -moz-border-radius: 40px / 20px;
+    border-radius: 40px / 20px; 
+    z-index: 1;
+ 
+    animation-name: an-blush;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.bowtie {
+    
+}
+
+
+#bowtie_left {
+    position: absolute;
+    top: 575px;
+    left: 445px;
+    width: 0;
+    height: 0;
+    border-top: 70px solid transparent;
+    border-left: 140px solid gold;
+    border-bottom: 70px solid transparent;
+    z-index: 0;
+}
+
+#bowtie_right {
+    position: absolute;
+    top: 575px;
+    left: 560px;
+    width: 0;
+    height: 0;
+    border-top: 70px solid transparent;
+    border-right: 140px solid gold;
+    border-bottom: 70px solid transparent;
+    z-index: 0;
+}
+
+
+@keyframes an-blush {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+
+
+
+
+
+ 

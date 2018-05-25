@@ -103,6 +103,16 @@ body {
     left:1495px;
 }
 
+#bird {
+    width: 100px;
+    position:fixed;
+    
+    left:0%;
+    top: 0%;
+    animation: birdmove 5s infinite;
+}
+}
+
 @keyframes boatmove {
     from {
         left: 0px;
@@ -144,17 +154,26 @@ body {
 }
 
 @keyframes floating {
-    from { 
-        transform: rotate(45deg);
+    from { transform: rotate(45deg);}
+       
+    to   { transform: rotate(-45deg);}    
+}
+
+@keyframes birdmoves {
+    from {top:10%;left:0%;transform:rotate(45deg);}
+    to {top:0%;left:100%;transform:rotate(45deg);}
+}
+
+
+
+@keyframes birdmove {
+    from {
+        top:0%;
+        left:0%;    
     }
     
-    
-   
-    to   { 
-        
-        transform: rotate(-45deg);
-
-        
-    
-    }    
+    to {
+        top:0%;
+        left:100%;
+    } 
 }

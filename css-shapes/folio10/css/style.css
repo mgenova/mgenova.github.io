@@ -1,0 +1,129 @@
+@keyframes an-pupils {
+    from {
+        left: 60px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+
+    
+body {
+  background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/Yellow-Stars-Background.jpg);
+}
+
+#Kirby {
+	width: 480px;
+	margin:20px auto;
+  
+}
+
+
+#head {
+	width: 400px;
+	height: 370px;
+	background-color: pink;
+	border-radius: 50%;
+	margin: auto;
+}
+
+
+#eyes {
+	clear: both;
+	width: 350px;
+	position: relative;
+	top: 50px;
+	left: 150px;
+}
+
+.eye {
+	width: 50px;
+	height: 120px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	float: left;
+	
+}
+
+.eye:eyes {
+	margin-right: 10px;
+}
+
+.pupil {
+	position: relative;
+	top:40px;
+	background-color: blue;
+	border-radius: 50%;
+	width: 45px;
+	height: 80px;
+	animation-name: an-pupils;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+
+.pupil_ref {
+	background-color: #FFFFFF;
+	border-radius: 45%;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: 40px;
+	left: 10px;
+
+}
+#star_shine {
+    width: 0;
+    height: 0;
+    margin: 50px 0;
+    color: white;
+    position: relative;
+    display: block;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #fc2e5a;
+    border-left: 100px solid transparent;
+    -moz-transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+
+}
+
+
+#mouth {
+    width: 0;
+    height: 0;
+    border-top: 40px solid #e9337c;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    position: relative;
+	top: 220px;
+	left: 158px;
+}
+
+#blush {
+  position: relative;
+    margin-left:inherit;
+    width: 60px;
+    height: 40px;
+    background: #e9337c;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top:135px;
+    left: -330px;
+}
+#blush_2 {
+    position: relative;
+    margin-left:inherit;
+    width: 60px;
+    height: 40px;
+    background: #e9337c;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top:100px;
+    left: -20px
+}

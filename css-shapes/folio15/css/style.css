@@ -1,0 +1,108 @@
+/****** External CSS styling goes here ******/
+body{
+    background-color: #2be22e;
+}
+
+#box{
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 650px;
+    height: 600px;
+    background: none;
+}
+
+#face{ 
+    position:absolute;
+    top:125px;
+    left:430px;
+    width: 400px;
+    height: 400px;
+    background: #fff400;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 200px;
+}
+
+#facecopy{ 
+    position:absolute;
+    top:125px;
+    left:430px;
+    width: 400px;
+    height: 400px;
+    background: #fff400;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 200px;
+    z-index:20px;
+}
+
+#eyewink{
+    position:absolute;
+    top:275px;
+    left: 490px;
+    height:25px;
+    width:100px;
+    border-radius: 100px 100px 0 0;
+    background:	#733a00;
+    z-index:30px;
+}
+
+#eye{
+    position:absolute;
+    top:200px;
+    left:640px;
+    width: 140px;
+    height: 140px;
+    background: #ffffff;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 70px;
+    z-index:30px;
+}
+
+#pupil{
+    position:absolute;
+    top:250px;
+    left:685px;
+    width: 50px;
+    height: 50px;
+    background: #000000;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 25px;
+    z-index:40px;
+}
+
+#mouth{
+    position:absolute;
+    top:390px;
+    left: 510px;
+    height:100px;
+    width:250px;
+    border-radius: 0 0 250px 250px;
+    background:	#844b11;
+    z-index:30px;
+}
+
+#tongue{
+    position:absolute;
+    top:400px;
+    left: 585px;
+    height:130px;
+    width:105px;
+    border-radius: 0 0 250px 250px;
+    background:	#ff5079;
+    z-index:50px;
+}
+
+#tongueline{
+    position:absolute;
+    top:400px;
+    left: 638px;
+    height:60px;
+    width:2px;
+    background:	#000000;
+    z-index:60px;
+}
+
