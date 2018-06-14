@@ -109,8 +109,7 @@ body {
     
     left:0%;
     top: 0%;
-    animation: birdmove 5s infinite;
-}
+
 }
 
 @keyframes boatmove {

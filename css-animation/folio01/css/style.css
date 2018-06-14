@@ -1,0 +1,29 @@
+#turtle {
+    width: 100px;
+   position:fixed;
+    top: 500px;
+    animation-name: turtle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+    
+    
+
+
+#sea{
+    width: 100%;
+    position:fixed;
+   
+    bottom:0px;
+    
+}
+
+@keyframes turtle {
+    from {
+        left:0px;
+        
+    }
+    to {
+        left:100%;
+    }
+}

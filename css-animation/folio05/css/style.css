@@ -1,0 +1,94 @@
+/****** External CSS styling goes here ******/
+#grass {
+position: absolute;
+top: 530px;
+right: 0px;
+width: 1900px;
+height: 200px;
+}
+
+#tree{
+position: absolute;
+top: 240px;
+right:900px;
+width: 400px;
+height: 400px;
+}
+#sun {
+position: absolute;
+top: 5px;
+right:50px;
+width: 200px;
+height: 200px;
+animation-name: sun-moving;
+animation-duration: 2s;
+animation-iteration-count: infinite;    
+}
+#cloud {
+position: fixed;    
+left:20%;
+top:50px;
+height: 200px; 
+animation: bird-moving 50s linear infinite;
+}
+#cloud1 {
+top: 25px;
+right:700px;
+width: 200px;
+height: 200px;
+animation: bird-moving 50s linear infinite;
+}
+#cloud2 {
+top: 25px;
+right:900px;
+width: 200px;
+height: 200px;
+animation: bird-moving 50s linear infinite;
+}
+}
+#bird {
+top: 280px;
+right:400px;
+width: 100px;
+height: 100px;
+animation: bird-moving 30s linear infinite; 
+}
+#bird1 {
+top: 280px;
+right:400px;
+width: 100px;
+height: 100px;
+animation: bird-moving 40s linear infinite;    
+}
+#bird2 {
+top: 270px;
+right:200px;
+width: 100px;
+height: 100px;
+animation: bird-moving 50s linear infinite;
+
+}
+
+
+@keyframes sun-moving {
+    from {
+        transform: rotate(45deg);
+        
+    }
+    
+    to {
+        
+        transform: rotate(-45deg);
+    }
+}
+
+
+@keyframes bird-moving {
+    0% {
+        margin-left:9000px;
+    }
+    
+    100% {
+        margin-left:-900px;
+    }
+}

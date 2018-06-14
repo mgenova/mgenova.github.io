@@ -1,0 +1,245 @@
+/****** External CSS styling goes here ******/
+body{
+  background:#5390f4;
+}
+
+#tube{
+    position: fixed;
+    left:3%;
+    top:525px;
+    width: 150px;
+    height: 150px;
+    z-index: 22;
+}
+
+
+#ground1{
+    position: fixed;
+    left:-5%;
+    top: 611px;
+    width: 800px;
+    height: 200px;
+    z-index: 15;
+}
+
+#ground2{
+    position: fixed;
+    left:45%;
+    top:611px;
+    width: 800px;
+    height: 200px;
+    z-index: 16;
+}
+
+#hills{
+    position: fixed;
+    left:65%;
+    top:178px;
+    width: 500px;
+    height: 500px;
+    z-index: 18;
+}
+
+#hills{
+    position: fixed;
+    left:65%;
+    top:178px;
+    width: 500px;
+    height: 500px;
+    z-index: 18;
+}
+
+#block{
+    position: fixed;
+    left:35%;
+    top:400px;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+}
+
+#brick{
+    position: fixed;
+    left:44%;
+    top:400px;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+}
+
+#mysteryblock{
+    position: fixed;
+    left:38%;
+    top:396px;
+    width:99px;
+    height:99px;
+    z-index:;
+}
+
+
+#sun{
+  position: fixed;
+    left:60%;
+     top:-180px;
+    width: 590px;
+    height: 500px;
+    z-index: 21;
+}
+
+
+/*/ELEMENTS TO ANIMATE/*/
+#mario{
+    position: absolute;
+    left:38%;
+    top:62%;
+    width: 100px;
+    height: 100px;
+    z-index: 19;
+    animation-name: jump;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 2;
+}
+
+#coin1{
+    position: absolute;
+    transform: rotateY(360deg);
+    left:45%;
+    top:358px;
+    width: 50px;
+    height: 50px;
+    z-index: 5;
+    animation-name: flip;
+    animation-duration:2s infinite;
+    animation-fill-mode: both;
+    animation-iteration-count: 3;
+}
+
+#coin2{
+    position: absolute;
+    transform: rotateY(360deg);
+    left:44%;
+    top:358px;
+    width: 50px;
+    height: 50px;
+    z-index: 6;
+    animation-name:flip;
+    animation-duration:1s infinite;
+    animation-fill-mode: both;
+    animation-iteration-count: 3;
+}
+
+#redmushroom{
+    position: absolute;
+    transform: translateX(80px);
+    left:40%;
+    top:353px;
+    width: 50px;
+    height: 50px;
+    z-index: 20;
+    animation-name:slide;
+    animation-duration: 2s infinite;
+    animation-fill-mode:both;
+    animation-iteration-count: 1;
+}
+
+#goomba1{
+   position: fixed;
+    transform: translateX(80px);
+    left:55%;
+    top:575px;
+    width: 170px;
+    height: 150px;
+    z-index: 3;
+    animation-name:goombawalk;
+    animation-duration: 2s infinite;
+    animation-fill-mode:both;
+    animation-iteration-count: 1;
+}
+
+#goomba2{
+    position: fixed;
+    transform: translateX(80px);
+    left:15%;
+    top:575px;
+    width: 170px;
+    height: 150px;
+    z-index: 4;
+    animation-name:goombawalk;
+    animation-duration: 2s infinite;
+    animation-fill-mode:both;
+    animation-iteration-count: 1;
+}
+
+#cloud1{
+    transform:translateX(500px);
+    width: 190px;
+    height: 190px;
+    z-index: 11;
+    animation-name: cloud1;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+
+#cloud2{
+   transform: translateX(100px);
+    width: 100px;
+    height: 100px;
+    z-index: 12;
+    animation-name: cloud2and3;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+
+#cloud3{
+   transform:translateX(100px);
+    width: 150px;
+    height: 150px;
+    z-index: 13;
+    animation-name: cloud2and3;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+
+#cloud4{
+    position: fixed;
+    left:30%;
+    top:70px;
+    width: 160px;
+    height: 160px;
+    z-index: 14;
+}
+/*/KEYFRAMES/*/
+@keyframes jump{
+    from{transform: translateY(0px);}
+    to {transform: translateY(112px);}
+}
+
+@keyframes flip{
+    from{transform: rotateY(0);}
+    to{transform: rotateY(360deg);}
+}
+
+@keyframes slide{
+    from{transform: translateX(0);}
+    to{transform: translateX(80px);}
+}
+
+@keyframes goombawalk{
+    from{transform: translateX(0);}
+    to{transform: translateX(80px);}
+}
+
+@keyframes cloud1 {
+    from{transform:translateX(0)}
+    to{ transform:translateX(500px);}
+}
+
+@keyframes cloud2and3 {
+    from{transform:translateX(0)}
+    to{ transform:translateX(100px);}
+}
+

@@ -1,0 +1,27 @@
+h1 {
+    animation-duration: 1.5s;
+    animation-name: bounceIn;
+    animation-iteration-count: infinite;   
+}
+
+div {
+    animation-duration: 3s;
+    animation-name: bounceInDown;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes bounceIn {
+    0% {transform: scale(1); opacity: 1; transform: rotate(-30deg)}
+    50% {transform: scale(1.2); opacity: 1;}
+    100% {transform: scale(1); transform: rotate(-30deg)}
+    
+}
+
+@keyframes bounceInDown {
+    0% {transform: translateY(0px); opacity: 1; transform: rotate(-10deg)}
+    40% {transform: translateY(2px); opacity: 1; transform: rotate(30deg)}
+    70% {transform: translateY(-100px);}
+    100%{transform: translateY(0px); transform: rotate(-10deg)}
+}

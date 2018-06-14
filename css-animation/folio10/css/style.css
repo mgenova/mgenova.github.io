@@ -1,0 +1,362 @@
+@keyframes body_one{
+    
+    from {left:1093px;}
+    to {right:0px;}
+}
+    @keyframes body_two{
+
+    from {left:95px;}
+    to {right:0px;}
+    }
+ @keyframes body_three{
+    
+    from {left:295px;}
+    to {right:0px;}
+    }
+ @keyframes wing_one{
+    
+    from {left:330px;}
+  
+    }
+ @keyframes wing_two{
+    
+    from {left:271px;}
+    to {right:0px;}
+    }
+@keyframes wing_three{
+    
+    from {left:123px;}
+
+    }
+@keyframes wing_four{
+    
+    from {left:70px;}
+    to {right:0px;}
+    }
+@keyframes wing_five{
+    
+    from {left:1118px;}
+    to {right:0px;}
+    }
+@keyframes wing_six{
+    
+    from {left:1075px;}
+    to {right:0px;}
+    }
+@keyframes light_one{
+    
+    from {left:296px;}
+    to {right:0px;}
+    }
+@keyframes light_two{
+    
+    from {left:96px;}
+    to {right:0px;}
+    }
+@keyframes light_three{
+    
+    from {left:1094px;}
+    to {right:0px;}
+    }
+@keyframes tint_light{
+    
+    from {background-color:antiquewhite;}
+    to {background-color:burlywood;}
+    }
+@keyframes fire{
+    
+    from {top:-1000px;}
+    to {bottom:0px;}
+    }
+
+body {
+  background-image:url(http://orig12.deviantart.net/f817/f/2014/257/a/2/animated_pixel_stars___box_background_by_driftwoodbones-d7z0h0p.png);
+}
+
+#bottom {
+    width: 520px;
+    height: 70px;
+    background-color: darkgreen;
+	position: relative;
+    margin-left:inherit;
+    top:675px;
+    left: 400px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#top {
+    width: 520px;
+    height: 100px;
+    background-color: darkgreen;
+	position: relative;
+    margin-left:inherit;
+    top:80px;
+    left: 400px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#tint {
+    width: 400px;
+    height: 470px;
+    background-color: antiquewhite;
+    position: relative;
+    margin-left:inherit;
+    top: 80px;
+    left: 460px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    animation-name: tint_light;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+#handle_top {
+    width: 420px;
+    height: 50px;
+    background-color: saddlebrown;
+    top:-650px;
+    left: 450px;
+    margin-left:inherit;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#handle_left_side {
+    width: 50px;
+    height: 110px;
+    background-color:saddlebrown;
+    top:-650px;
+    left: 450px;
+    margin-left:inherit;
+    position: relative;
+}
+#handle_right_side {
+    width: 50px;
+    height: 110px;
+    background-color:saddlebrown;
+    top:-760px;
+    left: 820px;
+    margin-left:inherit;
+    position: relative;
+}
+
+#table {
+    width: 1280px;
+    height: 200px;
+    background-color: saddlebrown;
+    top:-615px;
+    left: -20px;
+    margin-left: inherit;
+    position: relative;
+}
+#light_bug_one_body {
+    width: 40px;
+    height: 60px;
+    background-color: forestgreen;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    top: -500px;
+    left: 1100px;
+    margin-left:inherit;
+    position: relative;
+    animation-name: body_one;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+#light_bug_two_body {
+    width: 40px;
+    height: 60px;
+    background-color: forestgreen;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    top: -900px;
+    left: 100px;
+    margin-left:inherit;
+    position: relative;
+     animation-name:body_two;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+#light_bug_three_body {
+    width: 40px;
+    height: 60px;
+    background-color: forestgreen;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    top: -560px;
+    left: 300px;
+    margin-left:inherit;
+    position: relative;
+     animation-name: body_three;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+#wings_one {
+    width: 50px;
+    height: 30px;
+    background-color:white;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: -600px;
+    left: 340px;
+    margin-left:inherit;
+    position: relative;
+     animation-name: wing_one;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+#wings_two {
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: -630px;
+    left:250px;
+    margin-left:inherit;
+    position: relative;
+     animation-name: wing_two;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+#wings_three {
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: -1060px;
+    left:137px;
+    margin-left:inherit;
+    position: relative;
+     animation-name: wing_three;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+#wings_four {
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: -1090px;
+    left:50px;
+    margin-left:inherit;
+    position: relative;
+     animation-name: wing_four;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+#wings_five {
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: -785px;
+    left:1140px;
+    margin-left:inherit;
+    position: relative;
+     animation-name: wing_five;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+#wings_six {
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    top: -814px;
+    left:1051px;
+    margin-left:inherit;
+    position: relative;
+     animation-name: wing_six;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+#light_one {
+    width: 40px;
+    height: 30px;
+    background-color: yellow;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    top: -756px;
+    left: 300px;
+    margin-left:inherit;
+    position: relative;
+     animation-name: light_one;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+#light_two {
+    width: 40px;
+    height: 30px;
+    background-color: yellow;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    top: -1190px;
+    left: 100px;
+    margin-left:inherit;
+    position: relative;
+     animation-name: light_two;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+#light_three {
+    width: 40px;
+    height: 30px;
+    background-color: yellow;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+     top: -890px;
+    left: 1101px;
+    margin-left:inherit;
+    position: relative;
+    animation-name: light_three;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-direction: alternate-reverse;
+}
+
+#fire {
+  width: 300px;
+  height: 300px;
+  float: left;
+ top: -990px;
+    left: 500px;
+    margin-left:inherit;
+    position: relative;
+  background-image:url('../images/n4k6kWNtFDDvBPdG4Wxqe0xF_400x400[1].png');
+     animation-name: fire;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-direction: alternate-reverse;
+}
