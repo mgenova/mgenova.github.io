@@ -115,6 +115,8 @@ a:hover {
     -moz-transform:  scale(0.3, 0.3);
     transform:  scale(0.3, 0.3);
     overflow: hidden;
+    background-color: white;
+
 }
 .thumbnail.overlay {
     position: relative;
